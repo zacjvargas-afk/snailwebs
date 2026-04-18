@@ -22,5 +22,41 @@
       "rating": 4.7,
       "plays": "NEW"
     }
+  },
+  {
+    "id": "coreshift",
+    "title": "Coreshift",
+    "description": "Navigate the binary stream and recover harvested cores while avoiding system-fatal errors.",
+    "thumbnail": "https://picsum.photos/seed/coreshift/800/600",
+    "iframeUrl": "./games/coreshift/index.html",
+    "category": "Arcade",
+    "stats": {
+      "rating": 5.0,
+      "plays": "0"
+    }
+  },
+  {
+    "id": "neon-breaker",
+    "title": "Neon Breaker",
+    "description": "Destroy the neon circuitry in this high-octane circuit destructor.",
+    "thumbnail": "https://picsum.photos/seed/neonbreaker/800/600",
+    "iframeUrl": "./games/neonbreaker/index.html",
+    "category": "Arcade",
+    "stats": {
+      "rating": 4.9,
+      "plays": "NEW"
+    }
+  },
+  {
+    "id": "voxel-craft",
+    "title": "Voxel Craft",
+    "description": "Construct your own digital universe in this 3D block-building sandbox.",
+    "thumbnail": "https://picsum.photos/seed/voxelcraft/800/600",
+    "iframeUrl": "./games/voxels/index.html",
+    "category": "Creative",
+    "stats": {
+      "rating": 5.0,
+      "plays": "NEW"
+    }
   }
 ]
