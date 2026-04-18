@@ -1,0 +1,74 @@
+[
+  {
+    "id": "pacman",
+    "title": "Pac-Man",
+    "description": "The classic arcade game of ghosts and pellets.",
+    "thumbnail": "https://picsum.photos/seed/pacman/800/600",
+    "iframeUrl": "https://www.google.com/logos/2010/pacman10-i.html",
+    "category": "Arcade",
+    "stats": {
+      "rating": 4.8,
+      "plays": "1.2M"
+    }
+  },
+  {
+    "id": "2048",
+    "title": "2048",
+    "description": "Join the numbers to get to the 2048 tile!",
+    "thumbnail": "https://picsum.photos/seed/2048/800/600",
+    "iframeUrl": "https://play2048.co/",
+    "category": "Puzzle",
+    "stats": {
+      "rating": 4.5,
+      "plays": "850K"
+    }
+  },
+  {
+    "id": "tetris",
+    "title": "Tetris",
+    "description": "Stack the blocks and clear the lines.",
+    "thumbnail": "https://picsum.photos/seed/tetris/800/600",
+    "iframeUrl": "https://tetris.com/play-tetris",
+    "category": "Classic",
+    "stats": {
+      "rating": 4.9,
+      "plays": "2.1M"
+    }
+  },
+  {
+    "id": "snake",
+    "title": "Snake",
+    "description": "Eat the apples and grow as long as you can.",
+    "thumbnail": "https://picsum.photos/seed/snake/800/600",
+    "iframeUrl": "https://www.google.com/logos/2012/snake12-hp.html",
+    "category": "Arcade",
+    "stats": {
+      "rating": 4.2,
+      "plays": "500K"
+    }
+  },
+  {
+    "id": "minesweeper",
+    "title": "Minesweeper",
+    "description": "Flag the mines and clear the grid.",
+    "thumbnail": "https://picsum.photos/seed/mines/800/600",
+    "iframeUrl": "https://www.google.com/logos/search/minesweeper/minesweeper.html",
+    "category": "Puzzle",
+    "stats": {
+      "rating": 4.4,
+      "plays": "300K"
+    }
+  },
+  {
+    "id": "solitaire",
+    "title": "Solitaire",
+    "description": "The timeless card game of patience.",
+    "thumbnail": "https://picsum.photos/seed/cards/800/600",
+    "iframeUrl": "https://www.google.com/logos/2017/solitaire/solitaire.html",
+    "category": "Cards",
+    "stats": {
+      "rating": 4.6,
+      "plays": "1.5M"
+    }
+  }
+]
