@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+@theme {
+  --color-vault-bg: #0a0a0c;
+  --color-vault-card: #141418;
+  --color-vault-line: #1e1e24;
+  --color-vault-accent: #00ff66;
+  --color-vault-text: #e1e1e6;
+  --color-vault-muted: #8e8e99;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-vault-bg);
+    color: var(--color-vault-text);
+    font-family: 'Inter', sans-serif;
+  }
+}
+
+.scanline {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    to bottom,
+    transparent 50%,
+    rgba(0, 0, 0, 0.1) 50%
+  );
+  background-size: 100% 4px;
+  pointer-events: none;
+  z-index: 10;
+  opacity: 0.1;
+}
+
+.neon-glow {
+  box-shadow: 0 0 15px rgba(0, 255, 102, 0.2);
+}
+
+.neon-text {
+  text-shadow: 0 0 10px rgba(0, 255, 102, 0.5);
+}
+
+.glass {
+  background: rgba(20, 20, 24, 0.7);
+  backdrop-filter: blur(12px);
+  border: 1px solid var(--color-vault-line);
+}

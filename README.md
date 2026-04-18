@@ -1,23 +1,21 @@
-# GameVault Deployment Guide
+# GameVault: No-Build Edition
 
-If you are seeing a **blank page** after deploying to GitHub Pages, here is why and how to fix it:
+I have simplified your project into a standard **Vanilla HTML, JS, and CSS** stack.
 
-## 1. The "Blank Page" Issue
-GitHub Pages serves **static files**. It does not automatically run the React/Vite code you see in this editor. Browsers cannot read `.jsx` files directly. You must "build" the project into standard HTML/JS first.
+## 1. Why the change?
+The previous version used React/JSX, which required a "compiler" to turn JSX into JavaScript. This was causing the **MIME type error** (`text/jsx`) because browsers cannot read JSX directly. By switching to Vanilla JS, your site now works **natively** in all browsers without any complex setup.
 
-## 2. How to Deploy Correctly
+## 2. GitHub Pages (Perfect Compatibility)
+Your site is now 100% compatible with GitHub Pages.
+- **No Build Step**: You don't need to run `npm run build`.
+- **Just Push**: Upload the `index.html`, `style.css`, `script.js`, and the `src/` folder to your GitHub repo.
+- **It Just Works**: GitHub Pages will serve it perfectly as a static site.
 
-### Method A: Manual Build (Simple)
-1. Run `npm run build` in your terminal.
-2. This creates a `dist/` folder.
-3. Upload **only the contents** of the `dist/` folder to your GitHub repository (or the branch you use for GitHub Pages).
-
-### Method B: Configure Vite Base Path
-I have already updated your `vite.config.js` to use `base: './'`. This ensures that your assets (CSS, JS) load correctly even if your site is hosted at `username.github.io/your-repo-name/`.
-
-## 3. Recommended GitHub Actions Setup
-For the best experience, you should use a GitHub Action to automatically build and deploy. 
-Create a file at `.github/workflows/deploy.yml` in your repository with a "Vite GitHub Pages" template.
+## 3. Project Structure
+- `index.html`: The structure and UI markers.
+- `style.css`: Custom game-themed styling.
+- `script.js`: All the logic (filtering, search, modal popups).
+- `src/data/games.json`: Your game database.
 
 ---
-**GameVault Terminal** // v1.0.4-STABLE
+**GameVault Terminal** // v1.1.0-VANILLA
