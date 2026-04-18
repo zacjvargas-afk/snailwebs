@@ -1,20 +1,23 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# GameVault Deployment Guide
 
-# Run and deploy your AI Studio app
+If you are seeing a **blank page** after deploying to GitHub Pages, here is why and how to fix it:
 
-This contains everything you need to run your app locally.
+## 1. The "Blank Page" Issue
+GitHub Pages serves **static files**. It does not automatically run the React/Vite code you see in this editor. Browsers cannot read `.jsx` files directly. You must "build" the project into standard HTML/JS first.
 
-View your app in AI Studio: https://ai.studio/apps/e1728182-1f78-47b7-a4f4-52b8d6b400e8
+## 2. How to Deploy Correctly
 
-## Run Locally
+### Method A: Manual Build (Simple)
+1. Run `npm run build` in your terminal.
+2. This creates a `dist/` folder.
+3. Upload **only the contents** of the `dist/` folder to your GitHub repository (or the branch you use for GitHub Pages).
 
-**Prerequisites:**  Node.js
+### Method B: Configure Vite Base Path
+I have already updated your `vite.config.js` to use `base: './'`. This ensures that your assets (CSS, JS) load correctly even if your site is hosted at `username.github.io/your-repo-name/`.
 
+## 3. Recommended GitHub Actions Setup
+For the best experience, you should use a GitHub Action to automatically build and deploy. 
+Create a file at `.github/workflows/deploy.yml` in your repository with a "Vite GitHub Pages" template.
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+---
+**GameVault Terminal** // v1.0.4-STABLE
