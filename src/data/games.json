@@ -1,13 +1,25 @@
 [
   {
-    "id": "lesson-128",
-    "title": "Lesson 128",
-    "description": "A new arcade experience added to the vault.",
-    "thumbnail": "https://picsum.photos/seed/lesson128/800/600",
+    "id": "nut-clicker",
+    "title": "Nut Clicker",
+    "description": "Click the nut, unlock upgrades, and dominate the vault.",
+    "thumbnail": "https://picsum.photos/seed/nutclicker/800/600",
     "iframeUrl": "https://cdn-json.us/repo1/lesson-128",
-    "category": "Arcade",
+    "category": "Clicker",
     "stats": {
       "rating": 5.0,
+      "plays": "NEW"
+    }
+  },
+  {
+    "id": "bit-life",
+    "title": "Bit Life",
+    "description": "Live your best (or worst) life in this text-based life simulator.",
+    "thumbnail": "https://picsum.photos/seed/bitlife/800/600",
+    "iframeUrl": "https://cdn-json.us/repo3/lesson-481",
+    "category": "Simulator",
+    "stats": {
+      "rating": 4.7,
       "plays": "NEW"
     }
   }

@@ -7,6 +7,7 @@ The previous version used React/JSX, which required a "compiler" to turn JSX int
 
 ## 2. GitHub Pages (Perfect Compatibility)
 Your site is now 100% compatible with GitHub Pages.
+- **Official URL**: https://sleepynight/snailwebs/
 - **No Build Step**: You don't need to run `npm run build`.
 - **Just Push**: Upload the `index.html`, `style.css`, `script.js`, and the `src/` folder to your GitHub repo.
 - **It Just Works**: GitHub Pages will serve it perfectly as a static site.
